@@ -37,8 +37,5 @@ public class CustomerController {
         boolean isDeleted = customerService.deleteCustomer(id);
         return isDeleted ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
     }
-
-
-
 }
 
