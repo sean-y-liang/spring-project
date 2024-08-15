@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 build/
-!backend-customer/gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -18,7 +18,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-backend-customer/.idea
+.idea
 *.iws
 *.iml
 *.ipr
@@ -35,7 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-.DS_Store
-node_modules/
-

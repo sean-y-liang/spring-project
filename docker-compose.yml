@@ -1,10 +1,15 @@
-version: '3'
 services:
-  backend:
-    image: customer-management-backend
+  backend-customer:
+    image: backend-customer:latest
     ports:
       - "8080:8080"
+
+  backend-account:
+    image: backend-account:latest
+    ports:
+      - "8081:8081"
+
   frontend:
-    image: customer-management-frontend
+    image: frontend
     ports:
       - "80:80"
